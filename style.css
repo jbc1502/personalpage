@@ -16,11 +16,26 @@ body {
 header {
     background-color: #333;
     color: white;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+/* CSS animation to animate text */
+        #moving-text {
+            display: inline-block;
+            animation: moveText 10s linear infinite;
+        }
+
+        @keyframes moveText {
+            from {
+                transform: translateX(-50%);
+            }
+            to {
+                transform: translateX(50%);
+            }
+        }
 
 header .logo h1 {
 /*	margin-right:5%;  */
