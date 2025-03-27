@@ -23,7 +23,9 @@ header {
 }
 
 header .logo h1 {
-    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 header nav ul {
