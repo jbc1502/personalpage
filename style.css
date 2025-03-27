@@ -23,9 +23,9 @@ header {
 }
 
 header .logo h1 {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+     width: 90%;   /* Instead of width: 600px */
+    max-width: 1200px;
+    margin: auto;
 }
 
 header nav ul {
